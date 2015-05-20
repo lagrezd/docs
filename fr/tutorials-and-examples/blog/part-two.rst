@@ -241,7 +241,7 @@ Si un utilisateur demande /posts/view/3, alors la valeur '3' est transmise
 à la variable ``$id``.
 
 Nous faisons aussi une petite vérification d'erreurs pour nous assurer qu'un
-utilisateur accède bien à l'enregsitrement. Si un utilisateur requête
+utilisateur accède bien à l'enregistrement. Si un utilisateur requête
 ``/posts/view``, nous lancerons un ``NotFoundException`` et laisserons
 le Gestionnaire d'Erreur de CakePHP ErrorHandler prendre le dessus. Nous
 exécutons aussi une vérification similaire pour nous assurer que l'utilisateur
